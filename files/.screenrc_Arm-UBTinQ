@@ -1,0 +1,64 @@
+#Editor:                Eric_Hong
+#Orginal:               Feb 10, 2020
+#Date:                  Dec 25, 2024 
+#Ver:                   03 / Enalge scrollback buffer size
+#Ver:                   04 / Add "term" to fix backspace not working issue
+#Ver:                   05 / Add "term" to fix backspace not working issue
+#Ver:                   06 / Enable hardstatus
+#Ver:                   07 / Change to font YMD display instead of numerical digit; Rename 'Start_Win' 2 'Qemu_Win'
+#Ver:                   08 / Add "ro_product_name" flowed "Edit_Win" for good identy
+#			09 / Dec 23, 2024 / Modify hardstatus to display second, cause update to Screen version 5.0.0, by backtick and date
+#			     Dec 25, 2024 / Modify attribute/color of hardstatus and "localhost" to "ro_product_name" for V5
+#Target:                All Mechine
+#Note:                  screen setting/configuration, named .screenrc_Arm-UBTinQ
+
+# https://stackoverflow.com/questions/8760346/how-do-i-increase-the-scrollback-buffer-in-a-running-screen-session
+# https://superuser.com/questions/303602/how-can-i-view-more-of-my-history-in-screen-on-linux
+#defscrollback 15168
+defscrollback 168589
+# https://stackoverflow.com/questions/113427/how-to-clear-the-scrollback-in-the-screen-command
+#bind '/' eval "clear" "scrollback 0" "scrollback 15168"
+bind '/' eval "clear" "scrollback 0" "scrollback 885168"
+
+#https://unix.stackexchange.com/questions/43103/backspace-tab-not-working-in-terminal-using-ssh
+#https://serverfault.com/questions/20237/setting-term-for-gnu-screen
+#https://www.gnu.org/software/screen/manual/screen.html#Term
+#https://stackoverflow.com/questions/16915260/how-to-configure-default-term-in-screen-session
+#https://unix.stackexchange.com/questions/240146/why-does-tmux-set-term-variable-to-screen
+term screen-256color
+
+#Eric_H:021718
+#create windows
+#https://superuser.com/questions/386059/how-can-i-start-multiple-screen-sessions-automatically
+#screen -t Start_Win
+#Eric_H022302
+screen -t Qemu_Win
+screen -t Local_MISC
+screen -t SSH_Win
+screen -t Jupyter_Win
+#chdir $HOME/.ssh
+screen -t Edit_Win vim $HOME/.bash_history
+#Eric_H:024405
+#screen -t Edit_Win@$ro_product_name vim $HOME/.bash_history
+
+#Eric_H022220
+#http://archerworks.blogspot.com/2010/05/linuxscreenbindkey.html
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=[%S]@%H %= %Y/%m/%d | %0c:%s"
+#Eric_H022302
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=[%S]@%H %= %M %d(%D), %Y | %A%C:%s |"
+#Eric_H:024C23
+backtick 1 1 1 date +%S 
+#https://stackoverflow.com/questions/18439129/system-loads-in-gnu-screens-hardstatus-line
+#https://aperiodic.net/screen/commands:backtick
+#https://unix.stackexchange.com/questions/114505/gnu-screen-status-bar-how-to-make-it-display-shell-session-names
+#hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=[%S]@%H %= %M %d(%D), %Y | %A%C:%1` | %s |"
+#Eric_H:024C25
+#hardstatus alwayslastline " %-Lw%{ri40}%n%f %t%{-}%+Lw %=[%S] @ $ro_product_name %= %M %d(%D), %Y | %A%C:%1` | %s "
+hardstatus alwayslastline " %-Lw%{= Bw}%{ri40}%n%f %t%{-}%+Lw %=[%S] @ $ro_product_name %= %M %d(%D), %Y | %A%C:%1` | %s "
+#%{= Bw} --> for V4
+#%{ri40} --> for V5
+
+#Eric_H022220
+#https://blog.gtwang.org/linux/screen-command-examples-to-manage-linux-terminals/2
+#mkpasswd Hello
+#password S7nK0222Tprss
