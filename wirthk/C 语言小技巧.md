@@ -13,3 +13,12 @@
 RAM
 全局变量（函数外面定义）
 静态局部变量（函数内 + `static`）
+
+#sizeof与strlen区别
+sizeof(line_start)` = 41 (包含了字符串结束符 `\0`)
+strlen(line_start)` = 40 (不包含结束符)
+
+#宏定义 
+\#define USBD_SELF_POWERED 1 // 普通有符号数字 
+\#define USBD_SELF_POWERED 1U // 标准无符号数字（工程推荐）
+

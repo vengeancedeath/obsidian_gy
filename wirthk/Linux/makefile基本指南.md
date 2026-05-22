@@ -1,6 +1,17 @@
+---
+aliases:
+  - Makefile
+tags:
+  - Makefile
+data: 2026-04-16T16:33:00
+---
 
 
-文件参考[Makefile](file:///D:/obsidian/Obsidian-1.12.7/$PLUGINSDIR/app-64/library/files/Makefile)
+
+文件参考标准[Makefile](file:///D:/obsidian/Obsidian-1.12.7/$PLUGINSDIR/app-64/library/files/Makefile)  github存储Makefile Makefile_1.1
+- 标准 Makefile：轻量、单文件、适合小项目 / 个人开发，所有配置写死在一个文件
+- 项目 Makefile：工程化、模块化、解决Windows 命令行长度超限（大项目必崩），适合量产项目
+
 
 编译
 make
