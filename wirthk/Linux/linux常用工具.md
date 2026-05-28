@@ -557,6 +557,7 @@ data: 2026-04-18
 
 		清屏
 		ctrl + l
+		clear
 		
 		查询IP
 		ip a
