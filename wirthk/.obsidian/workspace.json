@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "587f62c534b01b76",
+        "id": "f815b09974b2bf9a",
         "type": "tabs",
         "children": [
           {
-            "id": "50e25f2a9a756ee0",
+            "id": "c4413f3f4a895197",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/OpenOCD.md",
+                "file": "MIPI协议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenOCD"
+              "title": "MIPI协议"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "滚",
+                "query": "tag:#RAM变量",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,30 +185,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "50e25f2a9a756ee0",
+  "active": "c4413f3f4a895197",
   "lastOpenFiles": [
+    "Pasted image 20260529165745.png",
+    "Pasted image 20260529164918.png",
+    "Pasted image 20260529164741.png",
+    "Pasted image 20260529152610.png",
+    "代码基本知识.md",
+    "MIPI协议.md",
+    "UD65640A.md",
+    "USB CDC.md",
+    "Pasted image 20260529110006.png",
+    "Pasted image 20260529110217.png",
+    "工具.md",
+    "BUG合集.md",
+    "LOG.md",
+    "2026-05-07.md",
+    "KEIL && GCC.md",
+    "2026-04-14.md",
+    "2026-04-20.md",
+    "2026-04-23.md",
+    "2026-04-28.md",
+    "Linux/OpenOCD.md",
     "Linux/makefile基本指南.md",
     "Linux/Bash_history使用技巧.md",
     "Linux/linux安装指南.md",
     "Linux/linux常用工具.md",
-    "Linux/OpenOCD.md",
     "Linux/搭建IDE.md",
     "Linux/了解linux.md",
     "Linux/VIM使用技巧.md",
     "Linux/linux启动脚本.md",
-    "UD65640A.md",
-    "KEIL && GCC.md",
-    "BUG合集.md",
-    "C 语言小技巧.md",
-    "LOG.md",
-    "USB CDC.md",
-    "工具.md",
-    "2026-04-14.md",
-    "2026-05-07.md",
     "Linux/SCREEN使用技巧.md",
-    "2026-04-28.md",
-    "2026-04-23.md",
-    "2026-04-20.md",
     "2026-05-11.md",
     "Linux/window与linux的数据传输.md",
     "Z_素材/Pasted image 20260521152923.png",
@@ -216,14 +223,7 @@
     "Z_素材/Pasted image 20260521145359.png",
     "Z_素材/Pasted image 20260521151237.png",
     "Z_素材/Pasted image 20260521153115.png",
-    "Z_素材/Pasted image 20260521143805.png",
-    "2026-05-20.md",
-    "Z_素材/Pasted image 20260428164123.png",
-    "Z_素材/Pasted image 20260428163420.png",
-    "Z_素材/Pasted image 20260428163144.png",
-    "Z_素材/Pasted image 20260428163025.png",
     "Z_素材",
-    "2026-04-17.md",
     "未命名.base",
     "未命名 1.base",
     "Templates"

@@ -7,7 +7,7 @@ data: 2026-05-27
 ---
 
 #OpenOCD下载
-
+NOTE：企业防护会挂载所有USB口导致 qemu usb-host模式失效
 
 方法一：   ----待测试？
 - 先安装 usbipd-win 工具，实现 USB 共享
