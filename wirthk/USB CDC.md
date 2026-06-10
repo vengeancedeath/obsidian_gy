@@ -18,7 +18,9 @@ MX_USB_DEVICE_Init();
 void USB_IRQHandler(void)
 {HAL_PCD_IRQHandler(&hpcd_USB_FS);
 
-NOTE:虚拟串口识别不到，重新初始化IO口，在MX_USB_DEVICE_Init之前，拉低电平，增加延迟
+NOTE:
+- 虚拟串口识别不到，重新初始化IO口，在MX_USB_DEVICE_Init之前，拉低电平，增加延迟。
+- USB Bulk传输是以包为级别，现在最大字节配置是64字节，现在之所以8字节为一包，是因为发的是8字节，如果四字节发一包 ，那四字节就触发一次中断
 
 
 
