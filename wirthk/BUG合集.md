@@ -27,3 +27,4 @@ data: 2026-05-13
 	- assert_failed 函数里添加 while(1) ,排查问题 - 开启了 USE_FULL_ASSERT 时才会生效：当 HAL 库检测到函数参数传错（比如引脚号错误、时钟参数非法），就会强制跳转到这个函数，程序一旦参数传错，立刻卡死在这里    发布版关闭 USE_FULL_ASSERT
 	- keil 编译switch case 是没有作用域的 要用{}
 	- NULL 头文件 #include <stddef.h>
+	- 表现为程序运行到某一位置，进行不下去，像复位一样，编译空间没有问题，原因HardFault， 栈溢出 / 尽量避免用自带的printf 
