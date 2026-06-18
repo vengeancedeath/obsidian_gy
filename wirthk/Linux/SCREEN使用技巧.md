@@ -24,3 +24,5 @@ NOTE：以下松手为全松
 	Ctrl + A + D
 	恢复
 	screen -x
+	关闭
+	screen -X -S XXXX quit

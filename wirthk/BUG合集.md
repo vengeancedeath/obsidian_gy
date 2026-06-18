@@ -17,7 +17,6 @@ data: 2026-05-13
 
 	- STM32F072 USB接口引脚统一
 	- 芯片demo通用模板的时钟 固定时钟 不一定就是芯片的固定时钟 例如LSI 影响systick  
-	- EC11编码器：注意波形是否正常还有软件采样时间
 	- HAL_MspInit函数里添加 例如
 	    __HAL_RCC_SYSCFG_CLK_ENABLE(); // 使能 SYSCFG 系统配置时钟：管理 外部中断 (EXTI)、引脚重映射、I/O 补偿         
 	    __HAL_RCC_PWR_CLK_ENABLE(); // 使能 PWR 电源时钟  ：管理低功耗、电压调节、备份区域访问
@@ -25,6 +24,15 @@ data: 2026-05-13
 	- Error_Handler 函数里添加  __disable_irq();关闭中断，排查问题
 	- USE_FULL_ASSERT 开启完整断言检查（作用：HAL 库会检查函数入参合法性，方便调试参数错误）
 	- assert_failed 函数里添加 while(1) ,排查问题 - 开启了 USE_FULL_ASSERT 时才会生效：当 HAL 库检测到函数参数传错（比如引脚号错误、时钟参数非法），就会强制跳转到这个函数，程序一旦参数传错，立刻卡死在这里    发布版关闭 USE_FULL_ASSERT
-	- keil 编译switch case 是没有作用域的 要用{}
 	- NULL 头文件 #include <stddef.h>
 	- 表现为程序运行到某一位置，进行不下去，像复位一样，编译空间没有问题，原因HardFault， 栈溢出 / 尽量避免用自带的printf 
+	- 串口发送大文件会丢包 +DMA 也不行 降低波特率可以，速度慢，串口容错率低，原因如下 printf打印耗时HAL
+	- 不要再中断等地方调用printf自带的，HAL自带的很耗时间
+
+KEIL:
+	- 无法跳转——工程、源码路径不能有中文、空格、特殊字符（`#、&、()`、中文文件夹名）
+	- keil 编译switch case 是没有作用域的 要用{}
+
+
+外设：
+	- EC11编码器：注意波形是否正常还有软件采样时间
