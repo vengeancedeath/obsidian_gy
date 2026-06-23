@@ -10,8 +10,30 @@
 
 
 #思路
-USB CDC虚拟串口，自定义Bootloader，A/B 双分区管理、固件签名校验、版本回滚、地址拦截、分区映射， 用 CubeProg 的「UART 模式」 ， Bootloader 串口协议和 ST 原厂兼容
 
+企业级bootloader
+![[Pasted image 20260622162728.png]]
+
+Note:
+-擦除写入自定义Size FLASH（注意拼接）
+-跳转程序
+bootloader  2.消除对A程序的影响
+![[Pasted image 20260623101351.png]]
+![[Pasted image 20260622151727.png]]
+
+A程序开始前配置
+![[Pasted image 20260622151743.png]]
+
+
+ ![[Pasted image 20260622162744.png]]
+
+
+
+
+目前思路：
+![[Pasted image 20260623131444.png]]
+![[Pasted image 20260623131456.png]]
+USB CDC虚拟串口，固件签名校验、
 ![[Pasted image 20260617111320.png]]
 
 ST 原厂协议核心规范（AN2606）
