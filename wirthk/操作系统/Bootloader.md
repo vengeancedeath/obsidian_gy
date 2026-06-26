@@ -1,3 +1,10 @@
+已实现简易跳转及STMCube-usart烧录   参考 github bootloader  
+
+#框架 
+stm32-mw-openbl-hal2 — 面向对象的分层架构 --支持芯片少
+STM32G0C1E-EV OpenBootloader — 平铺式应用架构 --方便移植--后续再切换架构
+
+
 #基本知识：
 -Bootloader程序放在Flash地址最开始 0x08000000 ,跳转到应用程序 需要跳转到A程序的复位中断地址 即（flash地址+4）
 
