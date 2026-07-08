@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f815b09974b2bf9a",
+        "id": "8cda979f570b2b35",
         "type": "tabs",
         "children": [
           {
-            "id": "8cf8003c0f411b6f",
+            "id": "bdcd75ef87073220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/FreeRTOS/基本知识.md",
+                "file": "操作系统/FreeRTOS/信号量.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基本知识"
+              "title": "信号量"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vTaskDelay",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5093e7af929b530d",
@@ -186,30 +185,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8cf8003c0f411b6f",
+  "active": "bdcd75ef87073220",
   "lastOpenFiles": [
-    "Pasted image 20260706174055.png",
-    "操作系统/FreeRTOS/FreeRTOS移植.md",
-    "操作系统/FreeRTOS/基本知识.md",
+    "操作系统/FreeRTOS/信号量.md",
+    "操作系统/FreeRTOS/消息队列.md",
     "操作系统/FreeRTOS/任务.md",
+    "操作系统/FreeRTOS/中断&临界区.md",
+    "操作系统/FreeRTOS/基本知识.md",
+    "Pasted image 20260707161328.png",
+    "Pasted image 20260707161247.png",
+    "Pasted image 20260707161215.png",
+    "Pasted image 20260707160014.png",
+    "Pasted image 20260707155044.png",
+    "操作系统/FreeRTOS/FreeRTOS移植.md",
+    "Pasted image 20260707154331.png",
+    "Pasted image 20260707154021.png",
+    "Pasted image 20260707154013.png",
+    "操作系统/Bin文件.md",
+    "Pasted image 20260707151328.png",
+    "2026-05-07.md",
+    "Z_素材/Pasted image 20260706093928.png",
     "代码基本知识.md",
-    "Pasted image 20260706142751.png",
-    "Pasted image 20260706142558.png",
-    "Pasted image 20260706115008.png",
-    "Pasted image 20260706105129.png",
-    "Pasted image 20260706105054.png",
-    "Pasted image 20260706093928.png",
     "经典的嵌入式模块化架构.md",
     "MIPI协议.md",
-    "Pasted image 20260629172903.png",
-    "Pasted image 20260629172855.png",
-    "Pasted image 20260629172659.png",
-    "Pasted image 20260629172614.png",
     "操作系统/FreeRTOS/1.md",
     "BUG合集.md",
     "EXC343.md",
     "操作系统/Bootloader.md",
-    "操作系统/Bin文件.md",
     "工具.md",
     "USB CDC.md",
     "UD65640A.md",
@@ -223,9 +225,6 @@
     "操作系统",
     "LOG.md",
     "Linux/VIM使用技巧.md",
-    "Linux/window与linux的数据传输.md",
-    "Linux/OpenOCD.md",
-    "Linux/makefile基本指南.md",
     "Z_素材",
     "未命名.base",
     "未命名 1.base",

@@ -37,15 +37,5 @@ vApplicationMallocFailedHook - 内存分配失败回调
 vApplicationStackOverflowHook - 栈溢出回调
 vTaskDelay -- 动态延时
 
-#临界区-不是百分百保险-保证任务不切合，范围内
-taskENTER_CRITICAL();  // 进入临界区 作用：保护临界区的代码不会被打断  关闭所有控制的中断（STM32 不是所有中断，所控制的中断，通过BASEPRI）——调用的是FreeRTOS的开关中断
-taskEXIT_CRITICAL(); //退出临界区  开启中断
-
-taskENTER_CRITICAL_FROM_ISR(); // 进去临界区（中断里）
-taskEXIT_CRITICAL_FROM_ISR(); //  退出临界区 （中断里）
-
-Note:
--所有依赖中断的函数（USB、UART、I2C 等）都不能在临界区内调用----临界区内只能做纯内存操作（赋值、计算），绝不能调用任何依赖中断的外设操作
--几次进入 就需要几次退出
  
 
