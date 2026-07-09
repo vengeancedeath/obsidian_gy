@@ -101,3 +101,7 @@ Burst Mode 突发模式（低功耗专用）
 ![[Pasted image 20260601112025.png]]
 
 
+NOTE:
+时序
+mipi模式
+EOTP
