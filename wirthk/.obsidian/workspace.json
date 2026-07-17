@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8cda979f570b2b35",
+        "id": "6ea2a1a83f58814d",
         "type": "tabs",
         "children": [
           {
-            "id": "bdcd75ef87073220",
+            "id": "ee270ea3243a56b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/FreeRTOS/事件标志组.md",
+                "file": "操作系统/FreeRTOS/低功耗模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "事件标志组"
+              "title": "低功耗模式"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#信号量",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,18 +63,9 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
-          {
-            "id": "0523f3d0afc35015",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,30 +176,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bdcd75ef87073220",
+  "active": "ee270ea3243a56b8",
   "lastOpenFiles": [
-    "操作系统/FreeRTOS/队列集.md",
+    "Pasted image 20260717150246.png",
+    "Pasted image 20260717150214.png",
+    "Pasted image 20260717145250.png",
+    "Pasted image 20260717145151.png",
+    "Pasted image 20260717145110.png",
     "操作系统/FreeRTOS/基本知识.md",
+    "操作系统/FreeRTOS/低功耗模式.md",
+    "Pasted image 20260717144056.png",
+    "Pasted image 20260717143254.png",
+    "Pasted image 20260717142913.png",
+    "操作系统/FreeRTOS/软件定时器.md",
+    "操作系统/FreeRTOS/消息队列.md",
     "操作系统/FreeRTOS/任务.md",
     "操作系统/FreeRTOS/事件标志组.md",
-    "操作系统/FreeRTOS/消息队列.md",
-    "操作系统/FreeRTOS/信号量.md",
-    "操作系统/FreeRTOS/中断&临界区.md",
-    "Pasted image 20260709162757.png",
-    "Pasted image 20260709161908.png",
-    "Pasted image 20260709161725.png",
-    "Pasted image 20260709155303.png",
-    "Pasted image 20260709143406.png",
-    "Pasted image 20260709143354.png",
-    "MIPI协议.md",
-    "Pasted image 20260708145645.png",
-    "Pasted image 20260708145417.png",
-    "Pasted image 20260708141427.png",
-    "Pasted image 20260708115522.png",
+    "Pasted image 20260717114856.png",
+    "操作系统/FreeRTOS/任务通知.md",
     "操作系统/FreeRTOS/FreeRTOS移植.md",
+    "操作系统/FreeRTOS/中断&临界区.md",
+    "操作系统/FreeRTOS/信号量.md",
+    "操作系统/FreeRTOS/队列集.md",
+    "Pasted image 20260717100817.png",
+    "Pasted image 20260717100806.png",
+    "代码基本知识.md",
+    "MIPI协议.md",
     "操作系统/Bin文件.md",
     "2026-05-07.md",
-    "代码基本知识.md",
     "经典的嵌入式模块化架构.md",
     "操作系统/FreeRTOS/1.md",
     "BUG合集.md",
@@ -219,9 +214,6 @@
     "UD65640A.md",
     "KEIL && GCC.md",
     "Linux/搭建IDE.md",
-    "Linux/linux安装指南.md",
-    "Linux/Bash_history使用技巧.md",
-    "2026-04-14.md",
     "操作系统/FreeRTOS",
     "操作系统",
     "Z_素材",
