@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7551793abf0f9a7",
+        "id": "bcabbba34498f2da",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfe6a2667c92edf",
+            "id": "dabb41625d97c721",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/基本知识.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "基本知识"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GCC",
+                "query": "tag:#hellowork",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5093e7af929b530d",
@@ -181,9 +186,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5dfe6a2667c92edf",
+  "active": "dabb41625d97c721",
   "lastOpenFiles": [
+    "Pasted image 20260724165711.png",
+    "Pasted image 20260724164454.png",
+    "Pasted image 20260724162343.png",
+    "Pasted image 20260724161418.png",
+    "Pasted image 20260724160236.png",
+    "Pasted image 20260724150315.png",
+    "Pasted image 20260724144906.png",
+    "Pasted image 20260724144439.png",
+    "Pasted image 20260724143755.png",
+    "Pasted image 20260724143520.png",
+    "Pasted image 20260724143452.png",
+    "CSharp/基本知识.md",
+    "操作系统/Bin文件.md",
+    "2026-04-23.md",
     "4G/基本知识.md",
+    "CSharp",
     "makefile基本指南.md",
     "Linux/OpenOCD.md",
     "KEIL && GCC.md",
@@ -194,7 +214,6 @@
     "Linux/搭建IDE.md",
     "2026-04-14.md",
     "2026-04-20.md",
-    "2026-04-23.md",
     "2026-04-28.md",
     "2026-05-07.md",
     "代码基本知识.md",
@@ -206,21 +225,7 @@
     "Linux/linux启动脚本.md",
     "Linux/linux常用工具.md",
     "Linux/linux安装指南.md",
-    "Linux/Bash_history使用技巧.md",
-    "Linux/了解linux.md",
-    "UD65640A.md",
-    "mqtt-1.png",
-    "Pasted image 20260723133426.png",
-    "Pasted image 20260723133400.png",
-    "Pasted image 20260723131239.png",
-    "mqtt-4.png",
-    "mqtt-3.png",
-    "mqtt-2.png",
-    "Pasted image 20260723093241.png",
-    "Pasted image 20260723093230.png",
-    "Pasted image 20260723093219.png",
     "4G/ML307R-DC",
-    "未命名",
     "4G",
     "操作系统/FreeRTOS",
     "操作系统",
