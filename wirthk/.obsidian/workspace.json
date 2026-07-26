@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcabbba34498f2da",
+        "id": "f589b37b865a254a",
         "type": "tabs",
         "children": [
           {
-            "id": "dabb41625d97c721",
+            "id": "1d281b310e59423d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "基本知识"
             }
+          },
+          {
+            "id": "cedca769acc9deb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/类.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "类"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#hellowork",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +80,7 @@
             }
           },
           {
-            "id": "64ab883b35cb1d3e",
+            "id": "0523f3d0afc35015",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5093e7af929b530d",
@@ -182,53 +196,51 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "dabb41625d97c721",
+  "active": "cedca769acc9deb5",
   "lastOpenFiles": [
-    "Pasted image 20260724165711.png",
-    "Pasted image 20260724164454.png",
-    "Pasted image 20260724162343.png",
-    "Pasted image 20260724161418.png",
-    "Pasted image 20260724160236.png",
-    "Pasted image 20260724150315.png",
-    "Pasted image 20260724144906.png",
-    "Pasted image 20260724144439.png",
-    "Pasted image 20260724143755.png",
-    "Pasted image 20260724143520.png",
-    "Pasted image 20260724143452.png",
+    "CSharp/递归.md",
+    "Pasted image 20260725165558.png",
+    "Pasted image 20260725165551.png",
+    "Pasted image 20260725165533.png",
+    "Pasted image 20260725165530.png",
+    "CSharp/重载.md",
+    "Pasted image 20260725164940.png",
+    "Pasted image 20260725164921.png",
     "CSharp/基本知识.md",
-    "操作系统/Bin文件.md",
-    "2026-04-23.md",
-    "4G/基本知识.md",
-    "CSharp",
-    "makefile基本指南.md",
-    "Linux/OpenOCD.md",
-    "KEIL && GCC.md",
+    "CSharp/变量&数据类型.md",
+    "CSharp/参数.md",
+    "CSharp/访问修饰符.md",
+    "CSharp/this.md",
+    "CSharp/数组.md",
+    "CSharp/枚举和结构.md",
+    "CSharp/类.md",
+    "Pasted image 20260725164309.png",
+    "Pasted image 20260725161840.png",
+    "Pasted image 20260725161253.png",
+    "Pasted image 20260725153831.png",
+    "代码基本知识.md",
     "EXC343.md",
     "BUG合集.md",
-    "LOG.md",
-    "MIPI协议.md",
-    "Linux/搭建IDE.md",
-    "2026-04-14.md",
-    "2026-04-20.md",
-    "2026-04-28.md",
     "2026-05-07.md",
-    "代码基本知识.md",
-    "工具.md",
-    "经典的嵌入式模块化架构.md",
-    "Linux/window与linux的数据传输.md",
-    "Linux/VIM使用技巧.md",
-    "Linux/SCREEN使用技巧.md",
-    "Linux/linux启动脚本.md",
-    "Linux/linux常用工具.md",
-    "Linux/linux安装指南.md",
-    "4G/ML307R-DC",
-    "4G",
+    "MIPI协议.md",
+    "操作系统/FreeRTOS/队列集.md",
+    "操作系统/FreeRTOS/软件定时器.md",
+    "操作系统/FreeRTOS/消息队列.md",
+    "操作系统/FreeRTOS/基本知识.md",
+    "操作系统/FreeRTOS/信号量.md",
+    "操作系统/FreeRTOS/低功耗模式.md",
+    "操作系统/FreeRTOS/任务通知.md",
+    "操作系统/FreeRTOS/任务.md",
+    "操作系统/FreeRTOS/事件标志组.md",
+    "操作系统/FreeRTOS/中断&临界区.md",
     "操作系统/FreeRTOS",
     "操作系统",
+    "CSharp",
+    "4G/ML307R-DC",
+    "4G",
     "Z_素材",
     "未命名.base",
     "未命名 1.base",
