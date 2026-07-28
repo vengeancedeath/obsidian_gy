@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bcabbba34498f2da",
+        "id": "919e569e60a82155",
         "type": "tabs",
         "children": [
           {
-            "id": "5d07b129a4512dce",
+            "id": "db7db065d08de9f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CSharp/10.异常.md",
-                "mode": "source",
-                "source": false
+                "file": "Z_素材/Pasted image 20260725165533.png"
               },
-              "icon": "lucide-file",
-              "title": "10.异常"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260725165533"
             }
           }
         ]
@@ -185,32 +183,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d07b129a4512dce",
+  "active": "c2ee4ba03f14e36f",
   "lastOpenFiles": [
-    "Pasted image 20260727175927.png",
-    "Pasted image 20260727175918.png",
-    "Pasted image 20260727175839.png",
-    "Pasted image 20260727175830.png",
-    "CSharp/9.接口.md",
-    "CSharp/10.异常.md",
-    "CSharp/递归.md",
-    "CSharp/8.形参.md",
-    "CSharp/7.多态&关键词.md",
-    "CSharp/6.继承-派生类.md",
-    "CSharp/5.访问修饰符.md",
-    "CSharp/4.枚举和结构.md",
-    "CSharp/3.变量&数据类型.md",
-    "CSharp/2.类&构造函数&属性.md",
-    "CSharp/1.基本知识.md",
-    "Pasted image 20260727171752.png",
+    "Z_素材/Pasted image 20260724150315.png",
+    "Z_素材/Pasted image 20260724134837.png",
+    "Z_素材/Pasted image 20260720160651.png",
+    "Z_素材/mqtt-1.png",
+    "Z_素材/ntp-1.1.png",
+    "Z_素材/ntp-1.0.png",
+    "Z_素材/ntp.png",
+    "Z_素材/mqtt-4.png",
+    "Z_素材/network.png",
+    "Z_素材/mqtt-3.png",
+    "Z_素材/mqtt-2.png",
+    "CSharp/CSharp语法/1.基本知识.md",
+    "CSharp/CSharp语法/7.多态&关键词.md",
+    "CSharp/CSharp语法",
+    "CSharp/CSharp语法.md",
+    "CSharp/CSharp语法/11.泛型和委托.md",
+    "CSharp/Windows Form",
+    "CSharp/CSharp语法/2.类&构造函数&属性.md",
+    "CSharp/CSharp语法/6.继承-派生类.md",
+    "CSharp/CSharp语法/3.变量&数据类型.md",
+    "CSharp/CSharp语法/4.枚举和结构.md",
+    "CSharp/CSharp语法/10.异常.md",
+    "CSharp/CSharp语法/9.接口.md",
+    "CSharp/CSharp语法/8.形参.md",
+    "CSharp/CSharp语法/5.访问修饰符.md",
+    "CSharp/CSharp语法/递归.md",
     "CSharp/this.md",
     "CSharp/数组.md",
-    "Pasted image 20260727163148.png",
-    "Pasted image 20260727162615.png",
-    "Pasted image 20260727162149.png",
-    "Pasted image 20260727161411.png",
-    "Pasted image 20260727154126.png",
-    "Pasted image 20260727151004.png",
     "CSharp/重载.md",
     "代码基本知识.md",
     "操作系统/Bin文件.md",
@@ -222,15 +224,12 @@
     "KEIL && GCC.md",
     "EXC343.md",
     "BUG合集.md",
-    "LOG.md",
-    "MIPI协议.md",
     "4G/ML307R-DC",
     "4G",
     "操作系统/FreeRTOS",
     "操作系统",
     "Z_素材",
     "未命名.base",
-    "未命名 1.base",
-    "Templates"
+    "未命名 1.base"
   ]
 }
