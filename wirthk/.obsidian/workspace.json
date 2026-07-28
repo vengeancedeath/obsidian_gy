@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "919e569e60a82155",
+        "id": "b3b4546a67be533c",
         "type": "tabs",
         "children": [
           {
-            "id": "db7db065d08de9f3",
+            "id": "c40ef6889f94d46c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Z_素材/Pasted image 20260725165533.png"
+                "file": "CSharp/Windows Form/基本知识.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260725165533"
+              "icon": "lucide-file",
+              "title": "基本知识"
             }
           }
         ]
@@ -183,8 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c2ee4ba03f14e36f",
+  "active": "c40ef6889f94d46c",
   "lastOpenFiles": [
+    "CSharp/Windows Form/基本知识.md",
+    "Z_素材/Pasted image 20260725165533.png",
     "Z_素材/Pasted image 20260724150315.png",
     "Z_素材/Pasted image 20260724134837.png",
     "Z_素材/Pasted image 20260720160651.png",
@@ -194,8 +198,6 @@
     "Z_素材/ntp.png",
     "Z_素材/mqtt-4.png",
     "Z_素材/network.png",
-    "Z_素材/mqtt-3.png",
-    "Z_素材/mqtt-2.png",
     "CSharp/CSharp语法/1.基本知识.md",
     "CSharp/CSharp语法/7.多态&关键词.md",
     "CSharp/CSharp语法",
