@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Windows Form/常用控件.md",
+                "file": "CSharp/Windows Form/文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用控件"
+              "title": "文件"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5093e7af929b530d",
@@ -187,20 +188,21 @@
   },
   "active": "c40ef6889f94d46c",
   "lastOpenFiles": [
-    "CSharp/Windows Form/文件.md",
-    "CSharp/Windows Form/基本知识.md",
+    "Pasted image 20260730152314.png",
+    "Pasted image 20260730152231.png",
+    "Pasted image 20260730152214.png",
+    "Pasted image 20260730152039.png",
     "CSharp/Windows Form/常用控件.md",
+    "CSharp/Windows Form/基本知识.md",
+    "CSharp/Windows Form/文件.md",
+    "Pasted image 20260730142533.png",
+    "Pasted image 20260730141438.png",
+    "Pasted image 20260730141341.png",
+    "Pasted image 20260730141337.png",
+    "Pasted image 20260730141240.png",
+    "Pasted image 20260730140704.png",
+    "Pasted image 20260730140654.png",
     "CSharp/CSharp语法/1.基本知识.md",
-    "Pasted image 20260729180343.png",
-    "Pasted image 20260729180255.png",
-    "Pasted image 20260729175826.png",
-    "Pasted image 20260729175245.png",
-    "Pasted image 20260729174852.png",
-    "Pasted image 20260729172825.png",
-    "Pasted image 20260729154408.png",
-    "Pasted image 20260729154020.png",
-    "Pasted image 20260729141349.png",
-    "Pasted image 20260729141346.png",
     "CSharp/CSharp语法/7.多态&关键词.md",
     "CSharp/CSharp语法",
     "CSharp/CSharp语法.md",
@@ -225,7 +227,6 @@
     "CSharp",
     "makefile基本指南.md",
     "Linux/OpenOCD.md",
-    "KEIL && GCC.md",
     "4G/ML307R-DC",
     "4G",
     "操作系统/FreeRTOS",
