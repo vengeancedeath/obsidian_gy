@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b3b4546a67be533c",
+        "id": "d082a4bb445de989",
         "type": "tabs",
         "children": [
           {
-            "id": "c40ef6889f94d46c",
+            "id": "367fc48f5ba1210d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSharp/Windows Form/文件.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "文件"
+              "title": "新标签页"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OpenFileDialog-文件打开对话框",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5093e7af929b530d",
@@ -183,40 +178,40 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "clear-unused-images-plus:Clear unused images": false
     }
   },
-  "active": "c40ef6889f94d46c",
+  "active": "367fc48f5ba1210d",
   "lastOpenFiles": [
-    "Pasted image 20260730152314.png",
-    "Pasted image 20260730152231.png",
-    "Pasted image 20260730152214.png",
-    "Pasted image 20260730152039.png",
-    "CSharp/Windows Form/常用控件.md",
-    "CSharp/Windows Form/基本知识.md",
     "CSharp/Windows Form/文件.md",
-    "Pasted image 20260730142533.png",
-    "Pasted image 20260730141438.png",
-    "Pasted image 20260730141341.png",
-    "Pasted image 20260730141337.png",
-    "Pasted image 20260730141240.png",
-    "Pasted image 20260730140704.png",
-    "Pasted image 20260730140654.png",
-    "CSharp/CSharp语法/1.基本知识.md",
-    "CSharp/CSharp语法/7.多态&关键词.md",
-    "CSharp/CSharp语法",
-    "CSharp/CSharp语法.md",
+    "CSharp/Windows Form/基本知识.md",
+    "CSharp/Windows Form/常用控件.md",
+    "CSharp/CSharp语法/递归.md",
     "CSharp/CSharp语法/11.泛型和委托.md",
-    "CSharp/Windows Form",
-    "CSharp/CSharp语法/2.类&构造函数&属性.md",
-    "CSharp/CSharp语法/6.继承-派生类.md",
-    "CSharp/CSharp语法/3.变量&数据类型.md",
+    "CSharp/CSharp语法/8.形参.md",
     "CSharp/CSharp语法/4.枚举和结构.md",
+    "CSharp/CSharp语法/1.基本知识.md",
     "CSharp/CSharp语法/10.异常.md",
     "CSharp/CSharp语法/9.接口.md",
-    "CSharp/CSharp语法/8.形参.md",
+    "CSharp/CSharp语法/7.多态&关键词.md",
+    "CSharp/CSharp语法/6.继承-派生类.md",
     "CSharp/CSharp语法/5.访问修饰符.md",
-    "CSharp/CSharp语法/递归.md",
+    "CSharp/CSharp语法/3.变量&数据类型.md",
+    "CSharp/CSharp语法/2.类&构造函数&属性.md",
+    "Z_素材/Pasted image 20260728143331.png",
+    "Z_素材/Pasted image 20260728144503.png",
+    "Z_素材/Pasted image 20260728144101.png",
+    "Z_素材/Pasted image 20260730170735.png",
+    "Pasted image 20260730170725.png",
+    "Pasted image 20260730170629.png",
+    "Z_素材/Pasted image 20260730170546.png",
+    "Z_素材/Pasted image 20260730170328.png",
+    "Z_素材/Pasted image 20260730170240.png",
+    "Z_素材/Pasted image 20260730170228.png",
+    "CSharp/CSharp语法",
+    "CSharp/CSharp语法.md",
+    "CSharp/Windows Form",
     "CSharp/this.md",
     "CSharp/数组.md",
     "CSharp/重载.md",
