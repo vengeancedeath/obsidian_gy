@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "基本知识"
             }
+          },
+          {
+            "id": "e7a3cbd02374a92a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-04-28.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-28"
+            }
+          },
+          {
+            "id": "ad5d306b855a73f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/Windows Form/基本知识.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "基本知识"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,50 +213,50 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "clear-unused-images-plus:Clear unused images": false
     }
   },
-  "active": "367fc48f5ba1210d",
+  "active": "ad5d306b855a73f3",
   "lastOpenFiles": [
-    "Pasted image 20260804111432.png",
-    "Pasted image 20260804111257.png",
-    "Pasted image 20260804110338.png",
-    "Pasted image 20260804110333.png",
-    "Pasted image 20260804110252.png",
-    "Pasted image 20260804110234.png",
     "CSharp/Windows Form/常用控件.md",
+    "Z_素材/Pasted image 20260804095613.png",
+    "Z_素材/Pasted image 20260804110333.png",
+    "Z_素材/Pasted image 20260804110234.png",
     "CSharp/Windows Form/基本知识.md",
-    "CSharp/Windows Form/文件.md",
-    "Pasted image 20260804095613.png",
+    "代码基本知识.md",
+    "makefile基本指南.md",
+    "MIPI协议.md",
     "Pasted image 20260804095544.png",
+    "Pasted image 20260804110252.png",
+    "Z_素材/Pasted image 20260804111257.png",
+    "Z_素材/Pasted image 20260804111432.png",
+    "Pasted image 20260805150834.png",
+    "Z_素材/Pasted image 20260805152854.png",
+    "Pasted image 20260805153653.png",
+    "CSharp/CSharp语法/1.基本知识.md",
+    "CSharp/CSharp语法/2.类&构造函数&属性.md",
+    "2026-04-28.md",
+    "Gamma.md",
+    "TEST.md",
+    "CSharp/CSharp语法/3.变量&数据类型.md",
+    "2026-05-07.md",
+    "2026-04-23.md",
+    "2026-04-20.md",
+    "CSharp/CSharp语法/8.形参.md",
+    "CSharp/Windows Form/文件.md",
+    "2026-04-14.md",
     "CSharp/CSharp语法/7.多态&关键词.md",
     "CSharp/CSharp语法/递归.md",
     "CSharp/CSharp语法/11.泛型和委托.md",
-    "CSharp/CSharp语法/8.形参.md",
     "CSharp/CSharp语法/4.枚举和结构.md",
-    "CSharp/CSharp语法/1.基本知识.md",
     "CSharp/CSharp语法/10.异常.md",
     "CSharp/CSharp语法/9.接口.md",
     "CSharp/CSharp语法/6.继承-派生类.md",
     "CSharp/CSharp语法/5.访问修饰符.md",
-    "CSharp/CSharp语法/3.变量&数据类型.md",
-    "CSharp/CSharp语法/2.类&构造函数&属性.md",
-    "Z_素材/Pasted image 20260728143331.png",
-    "Z_素材/Pasted image 20260728144503.png",
-    "Z_素材/Pasted image 20260728144101.png",
     "CSharp/CSharp语法",
-    "CSharp/CSharp语法.md",
     "CSharp/Windows Form",
-    "CSharp/this.md",
-    "CSharp/数组.md",
-    "CSharp/重载.md",
-    "代码基本知识.md",
-    "操作系统/Bin文件.md",
-    "2026-04-23.md",
-    "4G/基本知识.md",
     "CSharp",
-    "makefile基本指南.md",
-    "Linux/OpenOCD.md",
     "4G/ML307R-DC",
     "4G",
     "操作系统/FreeRTOS",
