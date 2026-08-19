@@ -3,7 +3,7 @@
   "logsModal": true,
   "excludedFolders": "",
   "excludedExtensions": "",
-  "ribbonIcon": false,
+  "ribbonIcon": true,
   "excludeSubfolders": true,
   "autoCleanOnVaultLoad": false,
   "autoCleanEveryXMinutes": false,

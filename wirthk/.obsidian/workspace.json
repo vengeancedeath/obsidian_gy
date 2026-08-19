@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d082a4bb445de989",
+        "id": "166e4e3c805cb7a0",
         "type": "tabs",
         "children": [
           {
-            "id": "367fc48f5ba1210d",
+            "id": "f4617f8839146135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Windows Form/基本知识.md",
+                "file": "4G/ML307R-DC/asocket.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基本知识"
+              "title": "asocket"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#this",
+                "query": "地址",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux安装指南.md",
+                "file": "4G/ML307R-DC/asocket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Linux安装指南 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -188,44 +188,44 @@
       "clear-unused-images-plus:Clear unused images": false
     }
   },
-  "active": "367fc48f5ba1210d",
+  "active": "f4617f8839146135",
   "lastOpenFiles": [
-    "PID算法.md",
+    "4G/ML307R-DC/UDP.md",
+    "4G/ML307R-DC/asocket.md",
+    "4G/ML307R-DC/NTP.md",
+    "4G/ML307R-DC/入网.md",
+    "4G/ML307R-DC/MQTT.md",
+    "Z_素材/Pasted image 20260810103440.png",
+    "Z_素材/Pasted image 20260819111804.png",
+    "Z_素材/Pasted image 20260819114225.png",
+    "Z_素材/Pasted image 20260819114233.png",
+    "Z_素材/Pasted image 20260819114245.png",
+    "Z_素材/Pasted image 20260819145809.png",
+    "Z_素材/Pasted image 20260819145814.png",
+    "Z_素材/Pasted image 20260819145820.png",
+    "Z_素材/Pasted image 20260819150435.png",
+    "Z_素材/Pasted image 20260819100307.png",
+    "4G/基本知识.md",
+    "4G/ML307R-DC/network.md",
     "陀螺仪/LSM6DSOW.md",
-    "Pasted image 20260818093659.png",
+    "SCONS.md",
+    "PID算法.md",
+    "TEST.md",
+    "UD65640A.md",
+    "USB CDC-虚拟串口.md",
+    "LOG-日志.md",
+    "CSharp/Windows Form/基本知识.md",
     "经典的嵌入式模块化架构.md",
     "工具.md",
     "BUG合集.md",
-    "Pasted image 20260812135945.png",
-    "Pasted image 20260812135905.png",
-    "Pasted image 20260812135827.png",
-    "Pasted image 20260812110239.png",
     "代码基本知识.md",
-    "Pasted image 20260812105207.png",
-    "Pasted image 20260811092502.png",
-    "LOG-日志.md",
     "陀螺仪",
     "EXC343.md",
     "Gamma.md",
     "KEIL && GCC.md",
     "makefile基本指南.md",
     "MIPI协议.md",
-    "Pasted image 20260810103440.png",
-    "TEST.md",
-    "UD65640A.md",
-    "USB CDC-虚拟串口.md",
     "2026-05-07.md",
-    "CSharp/Windows Form/基本知识.md",
-    "CSharp/Windows Form/常用控件.md",
-    "Z_素材/Pasted image 20260804095613.png",
-    "Z_素材/Pasted image 20260804110333.png",
-    "CSharp/CSharp语法/1.基本知识.md",
-    "CSharp/CSharp语法/2.类&构造函数&属性.md",
-    "CSharp/CSharp语法/3.变量&数据类型.md",
-    "2026-04-23.md",
-    "2026-04-20.md",
-    "CSharp/CSharp语法/8.形参.md",
-    "CSharp/Windows Form/文件.md",
     "CSharp/CSharp语法",
     "CSharp/Windows Form",
     "CSharp",
