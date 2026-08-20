@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "166e4e3c805cb7a0",
+        "id": "bb49c193399148e1",
         "type": "tabs",
         "children": [
           {
-            "id": "f4617f8839146135",
+            "id": "090ae6e2705249f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "4G/ML307R-DC/asocket.md",
-                "mode": "source",
-                "source": false
+                "file": "Z_素材/Pasted image 20260820133746.png"
               },
-              "icon": "lucide-file",
-              "title": "asocket"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260820133746"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "地址",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4G/ML307R-DC/asocket.md",
+                "file": "Z_素材/Pasted image 20260820133746.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,25 +186,32 @@
       "clear-unused-images-plus:Clear unused images": false
     }
   },
-  "active": "f4617f8839146135",
+  "active": "c2ee4ba03f14e36f",
   "lastOpenFiles": [
-    "4G/ML307R-DC/UDP.md",
-    "4G/ML307R-DC/asocket.md",
-    "4G/ML307R-DC/NTP.md",
-    "4G/ML307R-DC/入网.md",
-    "4G/ML307R-DC/MQTT.md",
-    "Z_素材/Pasted image 20260810103440.png",
-    "Z_素材/Pasted image 20260819111804.png",
-    "Z_素材/Pasted image 20260819114225.png",
-    "Z_素材/Pasted image 20260819114233.png",
-    "Z_素材/Pasted image 20260819114245.png",
-    "Z_素材/Pasted image 20260819145809.png",
-    "Z_素材/Pasted image 20260819145814.png",
-    "Z_素材/Pasted image 20260819145820.png",
-    "Z_素材/Pasted image 20260819150435.png",
-    "Z_素材/Pasted image 20260819100307.png",
     "4G/基本知识.md",
+    "4G/ML307R-DC/UDP.md",
+    "4G/ML307R-DC/NTP.md",
     "4G/ML307R-DC/network.md",
+    "4G/ML307R-DC/MQTT.md",
+    "4G/ML307R-DC/asocket.md",
+    "4G/ML307R-DC/入网.md",
+    "工具.md",
+    "Z_素材/Pasted image 20260820143405.png",
+    "Z_素材/Pasted image 20260820143350.png",
+    "Linux/linux常用工具.md",
+    "Z_素材/Pasted image 20260820134413.png",
+    "Z_素材/Pasted image 20260820134406.png",
+    "代码基本知识.md",
+    "Z_素材/Pasted image 20260820134347.png",
+    "Z_素材/Pasted image 20260820134337.png",
+    "Z_素材/Pasted image 20260820134321.png",
+    "Z_素材/Pasted image 20260820134303.png",
+    "Z_素材/Pasted image 20260820134259.png",
+    "Z_素材/Pasted image 20260820134246.png",
+    "Linux/linux安装指南.md",
+    "Linux/了解linux.md",
+    "Linux/Bash_history使用技巧.md",
+    "Linux/搭建IDE.md",
     "陀螺仪/LSM6DSOW.md",
     "SCONS.md",
     "PID算法.md",
@@ -216,16 +221,9 @@
     "LOG-日志.md",
     "CSharp/Windows Form/基本知识.md",
     "经典的嵌入式模块化架构.md",
-    "工具.md",
     "BUG合集.md",
-    "代码基本知识.md",
     "陀螺仪",
     "EXC343.md",
-    "Gamma.md",
-    "KEIL && GCC.md",
-    "makefile基本指南.md",
-    "MIPI协议.md",
-    "2026-05-07.md",
     "CSharp/CSharp语法",
     "CSharp/Windows Form",
     "CSharp",

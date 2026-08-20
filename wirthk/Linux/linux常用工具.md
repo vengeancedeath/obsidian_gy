@@ -498,7 +498,28 @@ data: 2026-04-18
 	sudo timedatectl set-ntp true/false
 	手动设置时间（不推荐，仅特殊情况用） -需要关闭NTP
 	sudo timedatectl set-time "2026-04-18 15:45:00"
-	
+
+#nano
+
+	打开 / 新建文本
+	nano xxxx
+	保存文件
+	Ctrl + O
+	退出 nano
+	Ctrl+X
+	搜索文本
+	Ctrl+W
+	剪切当前一整行
+	Ctrl+K
+	粘贴剪切的内容
+	Ctrl+U
+	打开帮助页面
+	Ctrl+G
+
+NOTE:
+	nano -w xxxx  关闭自动换行
+	nano -c xxxx 显示行号
+
 #常见命令
 
 	安装卸载更新
