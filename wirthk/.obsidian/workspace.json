@@ -11,12 +11,14 @@
             "id": "090ae6e2705249f8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Z_素材/Pasted image 20260820133746.png"
+                "file": "4G/基本知识.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260820133746"
+              "icon": "lucide-file",
+              "title": "基本知识"
             }
           }
         ]
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Z_素材/Pasted image 20260820133746.png",
+                "file": "4G/基本知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,28 +188,38 @@
       "clear-unused-images-plus:Clear unused images": false
     }
   },
-  "active": "c2ee4ba03f14e36f",
+  "active": "090ae6e2705249f8",
   "lastOpenFiles": [
-    "4G/基本知识.md",
+    "4G/ML307R-DC/MQTT.md",
+    "4G/ML307R-DC/network.md",
     "4G/ML307R-DC/UDP.md",
     "4G/ML307R-DC/NTP.md",
-    "4G/ML307R-DC/network.md",
-    "4G/ML307R-DC/MQTT.md",
     "4G/ML307R-DC/asocket.md",
+    "CSharp/CSharp语法/3.变量&数据类型.md",
+    "CSharp/CSharp语法/8.形参.md",
+    "CSharp/CSharp语法/6.继承-派生类.md",
+    "CSharp/CSharp语法/7.多态&关键词.md",
+    "CSharp/CSharp语法/4.枚举和结构.md",
+    "CSharp/CSharp语法/2.类&构造函数&属性.md",
+    "CSharp/CSharp语法/1.基本知识.md",
+    "蓝牙/基本知识.md",
+    "Pasted image 20260820173434.png",
+    "4G/基本知识.md",
+    "蓝牙",
+    "Pasted image 20260820160928.png",
+    "Pasted image 20260820160915.png",
+    "Pasted image 20260820160719.png",
     "4G/ML307R-DC/入网.md",
+    "Pasted image 20260820153401.png",
+    "代码基本知识.md",
+    "USB CDC-虚拟串口.md",
+    "Z_素材/Pasted image 20260820133746.png",
     "工具.md",
     "Z_素材/Pasted image 20260820143405.png",
     "Z_素材/Pasted image 20260820143350.png",
     "Linux/linux常用工具.md",
     "Z_素材/Pasted image 20260820134413.png",
     "Z_素材/Pasted image 20260820134406.png",
-    "代码基本知识.md",
-    "Z_素材/Pasted image 20260820134347.png",
-    "Z_素材/Pasted image 20260820134337.png",
-    "Z_素材/Pasted image 20260820134321.png",
-    "Z_素材/Pasted image 20260820134303.png",
-    "Z_素材/Pasted image 20260820134259.png",
-    "Z_素材/Pasted image 20260820134246.png",
     "Linux/linux安装指南.md",
     "Linux/了解linux.md",
     "Linux/Bash_history使用技巧.md",
@@ -215,15 +227,7 @@
     "陀螺仪/LSM6DSOW.md",
     "SCONS.md",
     "PID算法.md",
-    "TEST.md",
-    "UD65640A.md",
-    "USB CDC-虚拟串口.md",
-    "LOG-日志.md",
-    "CSharp/Windows Form/基本知识.md",
-    "经典的嵌入式模块化架构.md",
-    "BUG合集.md",
     "陀螺仪",
-    "EXC343.md",
     "CSharp/CSharp语法",
     "CSharp/Windows Form",
     "CSharp",
@@ -231,7 +235,6 @@
     "4G",
     "操作系统/FreeRTOS",
     "操作系统",
-    "Z_素材",
-    "未命名.base"
+    "Z_素材"
   ]
 }
