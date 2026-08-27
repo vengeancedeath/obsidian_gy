@@ -78,11 +78,14 @@ CTRL + ]
 
 #新建模块/组件
 方法一：
-![[Pasted image 20260825154811.png]]-优化组件CMakeLists
+![[Pasted image 20260825154811.png]]
 方法二：乐鑫的官方组件网站
 ![[Pasted image 20260826175558.png]]
 ![[Pasted image 20260826175936.png]]
 终端运行
+
+-优化组件CMakeLists
+
 
 #根目录CMakeLists
 ![[Pasted image 20260825134739.png]]
@@ -127,7 +130,16 @@ PRIV_REQUIRES 和 MINIMAL_BUILD 搭配使用 ，无MINIMAL_BUILD 无PRIV_REQUIRE
 NOTE:重点
 
 
-
+#调试
+-驱动
+![[Pasted image 20260827115422.png]]
+安装 interface2 CDC串口
+![[Pasted image 20260827115155.png]]
+用zadig 安装interface0 JTAG调试口
+![[1.png]]
+-调试
+启动openocd服务器，开始调试
+![[Pasted image 20260827115715.png]]
 
 
 #ERROR
