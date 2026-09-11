@@ -73,8 +73,13 @@ CTRL + ]
 -FreeRTOS时钟节拍
 ![[Pasted image 20260825110246.png]]
 
-#日志-3种打印函数
+#日志
 ![[Pasted image 20260825105815.png]]
+
+-如果要打开DEBUG打印需要
+ CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y or CONFIG_LOG_MAXIMUM_LEVEL=4
+esp_log_level_set("NimBLE_Security", ESP_LOG_DEBUG); // 设置日志级别为 DEBUG，方便调试
+
 
 #新建模块/组件
 方法一：
@@ -153,3 +158,6 @@ NOTE:重点
 #BUG 
 -在网络共享文件夹里-无法编译/ 能编译，头文件报红(能编译不影响固件)
 -新版 ESP‑IDF（5.3+ / 6.x）GPIO 组件依赖 为 esp_driver_gpio ，新版后组件名字变化-看例程指南
+
+#sdkconfig
+![[Pasted image 20260911114440.png]]
