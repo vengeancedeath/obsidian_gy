@@ -158,6 +158,26 @@ NOTE:重点
 #BUG 
 -在网络共享文件夹里-无法编译/ 能编译，头文件报红(能编译不影响固件)
 -新版 ESP‑IDF（5.3+ / 6.x）GPIO 组件依赖 为 esp_driver_gpio ，新版后组件名字变化-看例程指南
+-离线电脑运行示例程序，组件管理器会通过.yml文件加载依赖，如果没有本地依赖，默认去乐鑫 registry 查询，
+离线网络运行这类示例程序：
+1.-.vscode/settings.json文件
+添加  "idf.enableIdfComponentManager": false    //关闭组件管理器
+2.-删除相关的.yml文件
+3.-在根目录CMakeLists.txt文件里手动添加组件
+set(EXTRA_COMPONENT_DIRS $ENV{IDF_PATH}/examples/common_components/protocol_examples_common)
+4.-（选）注释掉 idf_build_set_property(MINIMAL_BUILD ON)
+5.-直接运行构建烧录不行，需要命令行输入
+$env:IDF_COMPONENT_MANAGER="0"
+idf.py fullclean
+idf.py build
+生成build 文件夹，可再直接调用一键烧录
+
 
 #sdkconfig
 ![[Pasted image 20260911114440.png]]
+
+
+
+NOTE:
+-assert(rc == 0); //不可恢复错误，程序直接崩溃
+-ESP_ERROR_CHECK () //不可恢复错误，失败直接崩溃
